@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-mergeDebugResources-31:/layout/fragment_status.xml",
+        "source": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-main-34:/layout/fragment_status.xml"
+    },
+    {
+        "merged": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-mergeDebugResources-31:/layout/fragment_chats.xml",
+        "source": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-main-34:/layout/fragment_chats.xml"
+    },
+    {
+        "merged": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-mergeDebugResources-31:/layout/activity_settings.xml",
+        "source": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-main-34:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-mergeDebugResources-31:/layout/activity_main.xml",
+        "source": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-mergeDebugResources-31:/layout/activity_sign_in.xml",
+        "source": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-main-34:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-mergeDebugResources-31:/layout/activity_sign_up.xml",
+        "source": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-main-34:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-mergeDebugResources-31:/layout/fragment_calls.xml",
+        "source": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-main-34:/layout/fragment_calls.xml"
+    },
+    {
+        "merged": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-mergeDebugResources-31:/layout/sample_sender.xml",
+        "source": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-main-34:/layout/sample_sender.xml"
+    },
+    {
+        "merged": "com.example.whatsapp-mergeDebugResources-31:/layout/activity_settings.xml",
+        "source": "com.example.whatsapp-main-34:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-mergeDebugResources-31:/layout/sample_show_user.xml",
+        "source": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-main-34:/layout/sample_show_user.xml"
+    },
+    {
+        "merged": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-mergeDebugResources-31:/layout/sample_receiver.xml",
+        "source": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-main-34:/layout/sample_receiver.xml"
+    },
+    {
+        "merged": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-mergeDebugResources-31:/layout/activity_chat_detail.xml",
+        "source": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-main-34:/layout/activity_chat_detail.xml"
+    },
+    {
+        "merged": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-mergeDebugResources-31:/layout/activity_group_chat.xml",
+        "source": "/Users/blu/.gradle/daemon/7.3.3/com.example.whatsapp-main-34:/layout/activity_group_chat.xml"
+    }
+]

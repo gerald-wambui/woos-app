@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="chatBackground">#AAAAAA</color>
+    <color name="chat_background">#8BC34A</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#0b6156</color>
+    <color name="colorPrimaryDark">#095049</color>
+    <color name="fb_color">#3c5793</color>
+    <color name="grayBackground">#BCBCBC</color>
+    <color name="lightGreen">#e5ffcc</color>
+    <color name="lightGrey">#EDEDED</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#095049</color>
+    <color name="purple_700">#8BC34A</color>
+    <color name="red">#9F0B0B</color>
+    <color name="settingIconColor">#0E8374</color>
+    <color name="status_background">#009688</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="whatsAppColor">#0b6156</color>
+    <color name="white">#FFFFFFFF</color>
+    <item name="toolbar" type="id"/>
+    <string name="app_name">WhatsApp</string>
+    <string name="default_web_client_id" translatable="false">639892364418-1qdamed43u5ph0n69jik55ofa2m6rdf2.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://woodeo-723e8-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">639892364418</string>
+    <string name="google_api_key" translatable="false">AIzaSyC-kVkyGMVUtjYDwkewd2mD7KeZplvIBxw</string>
+    <string name="google_app_id" translatable="false">1:639892364418:android:7c6cefd78c573e8efea89b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC-kVkyGMVUtjYDwkewd2mD7KeZplvIBxw</string>
+    <string name="google_storage_bucket" translatable="false">woodeo-723e8.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">woodeo-723e8</string>
+    <style name="Theme.WhatsApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

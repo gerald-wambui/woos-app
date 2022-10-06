@@ -1,0 +1,273 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.whatsapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:23:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:24:22-76
+13
+14    <application
+14-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:6:5-40:19
+15        android:allowBackup="true"
+15-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:7:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] /Users/blu/.gradle/caches/transforms-3/c395e7e1015ee83acecf070a1d54b71a/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:8:9-65
+18        android:debuggable="true"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:9:9-54
+20        android:icon="@drawable/bghack"
+20-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:10:9-40
+21        android:label="@string/app_name"
+21-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:11:9-41
+22        android:roundIcon="@drawable/whatsdark"
+22-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:12:9-48
+23        android:supportsRtl="true"
+23-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:13:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.WhatsApp" >
+25-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:14:9-46
+26        <activity
+26-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:16:9-18:40
+27            android:name="com.example.whatsapp.SettingsActivity"
+27-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:17:13-45
+28            android:exported="false" />
+28-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:18:13-37
+29        <activity
+29-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:19:9-21:40
+30            android:name="com.example.whatsapp.GroupChatActivity"
+30-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:20:13-46
+31            android:exported="false" />
+31-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:21:13-37
+32        <activity
+32-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:22:9-24:40
+33            android:name="com.example.whatsapp.ChatDetailActivity"
+33-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:23:13-47
+34            android:exported="false" />
+34-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:24:13-37
+35        <activity
+35-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:25:9-27:39
+36            android:name="com.example.whatsapp.SignInActivity"
+36-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:26:13-43
+37            android:exported="true" />
+37-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:27:13-36
+38        <activity
+38-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:28:9-36:20
+39            android:name="com.example.whatsapp.SignUpActivity"
+39-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:29:13-43
+40            android:exported="true" >
+40-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:30:13-36
+41            <intent-filter>
+41-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:31:13-35:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:32:17-69
+42-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:32:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:34:17-77
+44-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:34:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:37:9-39:39
+48            android:name="com.example.whatsapp.MainActivity"
+48-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:38:13-41
+49            android:exported="true" />
+49-->/Users/blu/AndroidStudioProjects/WhatsApp/app/src/main/AndroidManifest.xml:39:13-36
+50        <activity
+50-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:27:9-44:20
+51            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+51-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:28:13-80
+52            android:excludeFromRecents="true"
+52-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:29:13-46
+53            android:exported="true"
+53-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:30:13-36
+54            android:launchMode="singleTask"
+54-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:31:13-44
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+55-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:32:13-72
+56            <intent-filter>
+56-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:33:13-43:29
+57                <action android:name="android.intent.action.VIEW" />
+57-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:34:17-69
+57-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:34:25-66
+58
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:36:17-76
+59-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:36:27-73
+60                <category android:name="android.intent.category.BROWSABLE" />
+60-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:37:17-78
+60-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:37:27-75
+61
+62                <data
+62-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:39:17-42:51
+63                    android:host="firebase.auth"
+63-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:40:21-49
+64                    android:path="/"
+64-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:41:21-37
+65                    android:scheme="genericidp" />
+65-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:42:21-48
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:45:9-62:20
+69            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+69-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:46:13-79
+70            android:excludeFromRecents="true"
+70-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:47:13-46
+71            android:exported="true"
+71-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:48:13-36
+72            android:launchMode="singleTask"
+72-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:49:13-44
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+73-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:50:13-72
+74            <intent-filter>
+74-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:51:13-61:29
+75                <action android:name="android.intent.action.VIEW" />
+75-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:34:17-69
+75-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:34:25-66
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:36:17-76
+77-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:36:27-73
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:37:17-78
+78-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:37:27-75
+79
+80                <data
+80-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:39:17-42:51
+81                    android:host="firebase.auth"
+81-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:40:21-49
+82                    android:path="/"
+82-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:41:21-37
+83                    android:scheme="recaptcha" />
+83-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:42:21-48
+84            </intent-filter>
+85        </activity>
+86
+87        <service
+87-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:64:9-70:19
+88            android:name="com.google.firebase.components.ComponentDiscoveryService"
+88-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:65:13-84
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:20.1.1] /Users/blu/.gradle/caches/transforms-3/506696c26b4b3d384c45df172a53cf0f/transformed/firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+90            android:exported="false" >
+90-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:66:13-37
+91            <meta-data
+91-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:67:13-69:85
+92                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+92-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:68:17-109
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-auth:21.0.6] /Users/blu/.gradle/caches/transforms-3/090866fa051f1b4a66d720a4a0ddf70f/transformed/firebase-auth-21.0.6/AndroidManifest.xml:69:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-database:20.0.5] /Users/blu/.gradle/caches/transforms-3/6b25239c94e176702af97081a24bac05/transformed/firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+95                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+95-->[com.google.firebase:firebase-database:20.0.5] /Users/blu/.gradle/caches/transforms-3/6b25239c94e176702af97081a24bac05/transformed/firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-database:20.0.5] /Users/blu/.gradle/caches/transforms-3/6b25239c94e176702af97081a24bac05/transformed/firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-storage:20.0.1] /Users/blu/.gradle/caches/transforms-3/1060efc1eb1a68b52d1fdd201ca9e9ae/transformed/firebase-storage-20.0.1/AndroidManifest.xml:33:13-35:85
+98                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+98-->[com.google.firebase:firebase-storage:20.0.1] /Users/blu/.gradle/caches/transforms-3/1060efc1eb1a68b52d1fdd201ca9e9ae/transformed/firebase-storage-20.0.1/AndroidManifest.xml:34:17-107
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-storage:20.0.1] /Users/blu/.gradle/caches/transforms-3/1060efc1eb1a68b52d1fdd201ca9e9ae/transformed/firebase-storage-20.0.1/AndroidManifest.xml:35:17-82
+100        </service>
+101
+102        <activity
+102-->[com.google.android.gms:play-services-auth:20.2.0] /Users/blu/.gradle/caches/transforms-3/57d42f923237eaa1d59611b79bf9a9a6/transformed/play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+103            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+103-->[com.google.android.gms:play-services-auth:20.2.0] /Users/blu/.gradle/caches/transforms-3/57d42f923237eaa1d59611b79bf9a9a6/transformed/play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+104            android:excludeFromRecents="true"
+104-->[com.google.android.gms:play-services-auth:20.2.0] /Users/blu/.gradle/caches/transforms-3/57d42f923237eaa1d59611b79bf9a9a6/transformed/play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-auth:20.2.0] /Users/blu/.gradle/caches/transforms-3/57d42f923237eaa1d59611b79bf9a9a6/transformed/play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.android.gms:play-services-auth:20.2.0] /Users/blu/.gradle/caches/transforms-3/57d42f923237eaa1d59611b79bf9a9a6/transformed/play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+107        <!--
+108            Service handling Google Sign-In user revocation. For apps that do not integrate with
+109            Google Sign-In, this service will never be started.
+110        -->
+111        <service
+111-->[com.google.android.gms:play-services-auth:20.2.0] /Users/blu/.gradle/caches/transforms-3/57d42f923237eaa1d59611b79bf9a9a6/transformed/play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+112            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+112-->[com.google.android.gms:play-services-auth:20.2.0] /Users/blu/.gradle/caches/transforms-3/57d42f923237eaa1d59611b79bf9a9a6/transformed/play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+113            android:exported="true"
+113-->[com.google.android.gms:play-services-auth:20.2.0] /Users/blu/.gradle/caches/transforms-3/57d42f923237eaa1d59611b79bf9a9a6/transformed/play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+114            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+114-->[com.google.android.gms:play-services-auth:20.2.0] /Users/blu/.gradle/caches/transforms-3/57d42f923237eaa1d59611b79bf9a9a6/transformed/play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+115            android:visibleToInstantApps="true" />
+115-->[com.google.android.gms:play-services-auth:20.2.0] /Users/blu/.gradle/caches/transforms-3/57d42f923237eaa1d59611b79bf9a9a6/transformed/play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+116
+117        <provider
+117-->[com.squareup.picasso:picasso:2.71828] /Users/blu/.gradle/caches/transforms-3/1386f0a913093abe7cc23612e3ce9453/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40
+118            android:name="com.squareup.picasso.PicassoProvider"
+118-->[com.squareup.picasso:picasso:2.71828] /Users/blu/.gradle/caches/transforms-3/1386f0a913093abe7cc23612e3ce9453/transformed/picasso-2.71828/AndroidManifest.xml:9:13-64
+119            android:authorities="com.example.whatsapp.com.squareup.picasso"
+119-->[com.squareup.picasso:picasso:2.71828] /Users/blu/.gradle/caches/transforms-3/1386f0a913093abe7cc23612e3ce9453/transformed/picasso-2.71828/AndroidManifest.xml:10:13-72
+120            android:exported="false" />
+120-->[com.squareup.picasso:picasso:2.71828] /Users/blu/.gradle/caches/transforms-3/1386f0a913093abe7cc23612e3ce9453/transformed/picasso-2.71828/AndroidManifest.xml:11:13-37
+121        <provider
+121-->[com.google.firebase:firebase-common:20.1.1] /Users/blu/.gradle/caches/transforms-3/506696c26b4b3d384c45df172a53cf0f/transformed/firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+122            android:name="com.google.firebase.provider.FirebaseInitProvider"
+122-->[com.google.firebase:firebase-common:20.1.1] /Users/blu/.gradle/caches/transforms-3/506696c26b4b3d384c45df172a53cf0f/transformed/firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+123            android:authorities="com.example.whatsapp.firebaseinitprovider"
+123-->[com.google.firebase:firebase-common:20.1.1] /Users/blu/.gradle/caches/transforms-3/506696c26b4b3d384c45df172a53cf0f/transformed/firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+124            android:directBootAware="true"
+124-->[com.google.firebase:firebase-common:20.1.1] /Users/blu/.gradle/caches/transforms-3/506696c26b4b3d384c45df172a53cf0f/transformed/firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+125            android:exported="false"
+125-->[com.google.firebase:firebase-common:20.1.1] /Users/blu/.gradle/caches/transforms-3/506696c26b4b3d384c45df172a53cf0f/transformed/firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+126            android:initOrder="100" />
+126-->[com.google.firebase:firebase-common:20.1.1] /Users/blu/.gradle/caches/transforms-3/506696c26b4b3d384c45df172a53cf0f/transformed/firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+127
+128        <activity
+128-->[com.google.android.gms:play-services-base:18.0.1] /Users/blu/.gradle/caches/transforms-3/2e555aa60c2973d1a450e632503526ba/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+129            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+129-->[com.google.android.gms:play-services-base:18.0.1] /Users/blu/.gradle/caches/transforms-3/2e555aa60c2973d1a450e632503526ba/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+130            android:exported="false"
+130-->[com.google.android.gms:play-services-base:18.0.1] /Users/blu/.gradle/caches/transforms-3/2e555aa60c2973d1a450e632503526ba/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+131-->[com.google.android.gms:play-services-base:18.0.1] /Users/blu/.gradle/caches/transforms-3/2e555aa60c2973d1a450e632503526ba/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+132
+133        <meta-data
+133-->[com.google.android.gms:play-services-basement:18.0.0] /Users/blu/.gradle/caches/transforms-3/49c827b69fa8a7f7c64c8edf0f9f028b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+134            android:name="com.google.android.gms.version"
+134-->[com.google.android.gms:play-services-basement:18.0.0] /Users/blu/.gradle/caches/transforms-3/49c827b69fa8a7f7c64c8edf0f9f028b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+135            android:value="@integer/google_play_services_version" />
+135-->[com.google.android.gms:play-services-basement:18.0.0] /Users/blu/.gradle/caches/transforms-3/49c827b69fa8a7f7c64c8edf0f9f028b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+136
+137        <provider
+137-->[androidx.emoji2:emoji2:1.0.0] /Users/blu/.gradle/caches/transforms-3/f7fe229e2db298ac11bf7563144c1d40/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+138            android:name="androidx.startup.InitializationProvider"
+138-->[androidx.emoji2:emoji2:1.0.0] /Users/blu/.gradle/caches/transforms-3/f7fe229e2db298ac11bf7563144c1d40/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+139            android:authorities="com.example.whatsapp.androidx-startup"
+139-->[androidx.emoji2:emoji2:1.0.0] /Users/blu/.gradle/caches/transforms-3/f7fe229e2db298ac11bf7563144c1d40/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+140            android:exported="false" >
+140-->[androidx.emoji2:emoji2:1.0.0] /Users/blu/.gradle/caches/transforms-3/f7fe229e2db298ac11bf7563144c1d40/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+141            <meta-data
+141-->[androidx.emoji2:emoji2:1.0.0] /Users/blu/.gradle/caches/transforms-3/f7fe229e2db298ac11bf7563144c1d40/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+142                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+142-->[androidx.emoji2:emoji2:1.0.0] /Users/blu/.gradle/caches/transforms-3/f7fe229e2db298ac11bf7563144c1d40/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+143                android:value="androidx.startup" />
+143-->[androidx.emoji2:emoji2:1.0.0] /Users/blu/.gradle/caches/transforms-3/f7fe229e2db298ac11bf7563144c1d40/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+144            <meta-data
+144-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/blu/.gradle/caches/transforms-3/488f7c30a09a80966b1d0da3b7ccf544/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+145                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+145-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/blu/.gradle/caches/transforms-3/488f7c30a09a80966b1d0da3b7ccf544/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+146                android:value="androidx.startup" />
+146-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/blu/.gradle/caches/transforms-3/488f7c30a09a80966b1d0da3b7ccf544/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+147        </provider>
+148    </application>
+149
+150</manifest>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "639892364418",
+    "firebase_url": "https://woodeo-723e8-default-rtdb.firebaseio.com",
+    "project_id": "woodeo-723e8",
+    "storage_bucket": "woodeo-723e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639892364418:android:950b839ac6a10edafea89b",
+        "android_client_info": {
+          "package_name": "com.example.musicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639892364418-1qdamed43u5ph0n69jik55ofa2m6rdf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-kVkyGMVUtjYDwkewd2mD7KeZplvIBxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639892364418-1qdamed43u5ph0n69jik55ofa2m6rdf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639892364418:android:7c6cefd78c573e8efea89b",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639892364418-1qdamed43u5ph0n69jik55ofa2m6rdf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-kVkyGMVUtjYDwkewd2mD7KeZplvIBxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639892364418-1qdamed43u5ph0n69jik55ofa2m6rdf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
