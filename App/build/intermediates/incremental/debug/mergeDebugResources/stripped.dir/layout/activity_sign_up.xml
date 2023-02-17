@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical"
+    android:background="@drawable/w1"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/ic_whatsapp"
+            tools:ignore="ContentDescription"
+            app:cornerRadius="8dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtUserName"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="UserName"
+            android:inputType="textPersonName"
+            android:padding="9dp"
+            android:textColor="@color/lightGrey"
+            android:textColorHint="@color/liner"
+            android:importantForAutofill="no"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/txtEmail"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="9dp"
+            android:textColor="@color/lightGrey"
+            android:textColorHint="@color/liner"
+            tools:ignore="HardcodedText"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/txtPassword"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="9dp"
+            android:textColor="@color/white"
+            android:textColorHint="#1DB954"
+            android:importantForAutofill="no"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtAlreadyHaveAccount"
+            android:layout_gravity="right"
+            android:text="Already Have Account"
+            android:textColor="@color/black"
+            android:gravity="right"
+            android:padding="5dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSignUp"
+            android:layout_marginTop="5dp"
+            android:padding="17dp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            app:backgroundTint="@color/black"
+            app:cornerRadius="16dp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGoogle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:textColorHint="@color/red"
+                android:maxWidth="350dp"
+                android:padding="15dp"
+                android:text="Google"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:textColor="#FD1D1D"
+                app:backgroundTint="@color/black"
+                app:cornerRadius="16dp"
+                tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnFacebook"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                android:padding="15dp"
+                android:text="Facebook"
+                android:textColor="@color/royalblue"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                app:backgroundTint="@color/black"
+                app:cornerRadius="16dp"
+                tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSignUpPhone"
+            android:layout_marginTop="15dp"
+            android:text="Sign Up with Phone"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
