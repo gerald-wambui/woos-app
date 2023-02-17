@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.whatsapp"
+        applicationId "com.example.deleted"
         minSdk 21
         targetSdk 32
         versionCode 1
@@ -43,7 +43,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:20.0.5'
     implementation 'com.google.android.gms:play-services-auth:20.2.0'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
-    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.squareup.picasso:picasso:2.8'
     implementation 'com.google.firebase:firebase-storage:20.0.1'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
